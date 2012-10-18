@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA707084162F9D58003531A3 /* SFAtarianSystem.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA707083162F9D58003531A3 /* SFAtarianSystem.ttf */; };
+		FA7070CE1630516B003531A3 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7070CD1630516B003531A3 /* IntroViewController.xib */; };
+		FA96DE42162F44E800A55DCD /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA96DE41162F44E800A55DCD /* IntroViewController.m */; };
 		FAA22BDB1625E4DD00677DCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA22BDA1625E4DD00677DCC /* UIKit.framework */; };
 		FAA22BDD1625E4DD00677DCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA22BDC1625E4DD00677DCC /* Foundation.framework */; };
 		FAA22BDF1625E4DD00677DCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA22BDE1625E4DD00677DCC /* CoreGraphics.framework */; };
@@ -16,11 +19,17 @@
 		FAA22BED1625E4DD00677DCC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA22BEC1625E4DD00677DCC /* Default.png */; };
 		FAA22BEF1625E4DD00677DCC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA22BEE1625E4DD00677DCC /* Default@2x.png */; };
 		FAA22BF11625E4DD00677DCC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA22BF01625E4DD00677DCC /* Default-568h@2x.png */; };
-		FAA22BF41625E4DD00677DCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA22BF31625E4DD00677DCC /* ViewController.m */; };
-		FAA22BF71625E4DD00677DCC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA22BF51625E4DD00677DCC /* ViewController.xib */; };
+		FAA22BF41625E4DD00677DCC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA22BF31625E4DD00677DCC /* GameViewController.m */; };
+		FAA22BF71625E4DD00677DCC /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA22BF51625E4DD00677DCC /* GameViewController.xib */; };
+		FAA22BFF1625E58700677DCC /* PaddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA22BFE1625E58700677DCC /* PaddleView.m */; };
+		FAA22C041625E7A800677DCC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA22C031625E7A800677DCC /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA707083162F9D58003531A3 /* SFAtarianSystem.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFAtarianSystem.ttf; sourceTree = "<group>"; };
+		FA7070CD1630516B003531A3 /* IntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
+		FA96DE40162F44E800A55DCD /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		FA96DE41162F44E800A55DCD /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		FAA22BD61625E4DD00677DCC /* Pong2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA22BDA1625E4DD00677DCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAA22BDC1625E4DD00677DCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,9 +43,13 @@
 		FAA22BEC1625E4DD00677DCC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FAA22BEE1625E4DD00677DCC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FAA22BF01625E4DD00677DCC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		FAA22BF21625E4DD00677DCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAA22BF31625E4DD00677DCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FAA22BF61625E4DD00677DCC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FAA22BF21625E4DD00677DCC /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		FAA22BF31625E4DD00677DCC /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		FAA22BF61625E4DD00677DCC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GameViewController.xib; sourceTree = "<group>"; };
+		FAA22BFD1625E58700677DCC /* PaddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddleView.h; sourceTree = "<group>"; };
+		FAA22BFE1625E58700677DCC /* PaddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaddleView.m; sourceTree = "<group>"; };
+		FAA22C031625E7A800677DCC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FAF186DB162C62F900552105 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA22C041625E7A800677DCC /* QuartzCore.framework in Frameworks */,
 				FAA22BDB1625E4DD00677DCC /* UIKit.framework in Frameworks */,
 				FAA22BDD1625E4DD00677DCC /* Foundation.framework in Frameworks */,
 				FAA22BDF1625E4DD00677DCC /* CoreGraphics.framework in Frameworks */,
@@ -53,9 +67,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA707086162F9D70003531A3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA707083162F9D58003531A3 /* SFAtarianSystem.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		FAA22BCB1625E4DD00677DCC = {
 			isa = PBXGroup;
 			children = (
+				FA707086162F9D70003531A3 /* Fonts */,
 				FAA22BE01625E4DD00677DCC /* Pong2 */,
 				FAA22BD91625E4DD00677DCC /* Frameworks */,
 				FAA22BD71625E4DD00677DCC /* Products */,
@@ -73,6 +96,7 @@
 		FAA22BD91625E4DD00677DCC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAA22C031625E7A800677DCC /* QuartzCore.framework */,
 				FAA22BDA1625E4DD00677DCC /* UIKit.framework */,
 				FAA22BDC1625E4DD00677DCC /* Foundation.framework */,
 				FAA22BDE1625E4DD00677DCC /* CoreGraphics.framework */,
@@ -85,9 +109,15 @@
 			children = (
 				FAA22BE91625E4DD00677DCC /* AppDelegate.h */,
 				FAA22BEA1625E4DD00677DCC /* AppDelegate.m */,
-				FAA22BF21625E4DD00677DCC /* ViewController.h */,
-				FAA22BF31625E4DD00677DCC /* ViewController.m */,
-				FAA22BF51625E4DD00677DCC /* ViewController.xib */,
+				FAF186DB162C62F900552105 /* Constants.h */,
+				FA96DE40162F44E800A55DCD /* IntroViewController.h */,
+				FA96DE41162F44E800A55DCD /* IntroViewController.m */,
+				FA7070CD1630516B003531A3 /* IntroViewController.xib */,
+				FAA22BF21625E4DD00677DCC /* GameViewController.h */,
+				FAA22BF31625E4DD00677DCC /* GameViewController.m */,
+				FAA22BF51625E4DD00677DCC /* GameViewController.xib */,
+				FAA22BFD1625E58700677DCC /* PaddleView.h */,
+				FAA22BFE1625E58700677DCC /* PaddleView.m */,
 				FAA22BE11625E4DD00677DCC /* Supporting Files */,
 			);
 			path = Pong2;
@@ -162,7 +192,9 @@
 				FAA22BED1625E4DD00677DCC /* Default.png in Resources */,
 				FAA22BEF1625E4DD00677DCC /* Default@2x.png in Resources */,
 				FAA22BF11625E4DD00677DCC /* Default-568h@2x.png in Resources */,
-				FAA22BF71625E4DD00677DCC /* ViewController.xib in Resources */,
+				FAA22BF71625E4DD00677DCC /* GameViewController.xib in Resources */,
+				FA707084162F9D58003531A3 /* SFAtarianSystem.ttf in Resources */,
+				FA7070CE1630516B003531A3 /* IntroViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +207,9 @@
 			files = (
 				FAA22BE71625E4DD00677DCC /* main.m in Sources */,
 				FAA22BEB1625E4DD00677DCC /* AppDelegate.m in Sources */,
-				FAA22BF41625E4DD00677DCC /* ViewController.m in Sources */,
+				FAA22BF41625E4DD00677DCC /* GameViewController.m in Sources */,
+				FAA22BFF1625E58700677DCC /* PaddleView.m in Sources */,
+				FA96DE42162F44E800A55DCD /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,12 +224,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		FAA22BF51625E4DD00677DCC /* ViewController.xib */ = {
+		FAA22BF51625E4DD00677DCC /* GameViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FAA22BF61625E4DD00677DCC /* en */,
 			);
-			name = ViewController.xib;
+			name = GameViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,6 +324,7 @@
 				FAA22BFC1625E4DD00677DCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
