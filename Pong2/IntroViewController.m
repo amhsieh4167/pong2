@@ -7,8 +7,6 @@
 //
 
 #import "IntroViewController.h"
-#import "GameViewController.h"
-
 
 @interface IntroViewController ()
 

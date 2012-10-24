@@ -10,7 +10,7 @@
 
 @interface PaddleView : UIView
 
-@property CGFloat distanceFromCenter;
+//@property CGFloat distanceFromCenter;
 @property(nonatomic, assign)BOOL autoPlay;
 
 -(void)movePaddleUp:  (NSTimer* )timer;

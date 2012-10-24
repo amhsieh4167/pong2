@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GameViewController.h
 //  Pong
 //
 //  Created by Don Bora on 10/8/12.
@@ -7,10 +7,11 @@
 //
 
 #import "GameViewController.h"
+#import "ResumeGameDelegate.h"
 
 @class PaddleView;
 
-@interface GameViewController : UIViewController <UIAlertViewDelegate>
+@interface GameViewController : UIViewController <UIAlertViewDelegate, ResumeGameDelegate>
 {
     IBOutlet PaddleView*    paddleViewLeft;
     IBOutlet PaddleView*    paddleViewRight;

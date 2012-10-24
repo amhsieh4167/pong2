@@ -39,7 +39,7 @@
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">256</int>
 						<array class="NSMutableArray" key="NSSubviews"/>
-						<string key="NSFrame">{{20, 110}, {20, 100}}</string>
+						<string key="NSFrame">{{20, 110}, {40, 100}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSNextKeyView" ref="40582596"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -52,7 +52,7 @@
 					<object class="IBUIView" id="833096494">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">256</int>
-						<string key="NSFrame">{{445, 110}, {20, 100}}</string>
+						<string key="NSFrame">{{428, 110}, {40, 100}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
@@ -153,6 +153,7 @@
 					<reference key="NSCustomColorSpace" ref="521564083"/>
 				</object>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
+				<bool key="IBUIMultipleTouchEnabled">YES</bool>
 				<object class="IBUISimulatedSizeMetrics" key="IBUISimulatedDestinationMetrics">
 					<string key="IBUISimulatedSizeMetricsClass">IBUISimulatedFreeformSizeMetricsSentinel</string>
 					<string key="IBUIDisplayName">Freeform</string>

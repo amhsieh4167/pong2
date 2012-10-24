@@ -11,7 +11,7 @@
 
 @implementation PaddleView
 
-@synthesize distanceFromCenter;
+//@synthesize distanceFromCenter;
 @synthesize autoPlay = _autoPlay;
 
 - (id)initWithCoder:(NSCoder *)coder // We initiate the PaddleView with this function instead of the initWithFrame
@@ -34,7 +34,7 @@
 
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    if (!_autoPlay) {
+   if (!_autoPlay) {
         UITouch* touch = [touches anyObject];
         CGPoint touchLocation = [touch locationInView:self.superview];
         
@@ -49,7 +49,7 @@
         else {
             self.center = CGPointMake(self.center.x, touchLocation.y);
         }
-    }
+   }
 }
 
 - (void)movePaddleUp:(NSTimer*) timer

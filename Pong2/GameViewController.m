@@ -62,7 +62,7 @@
         [timer invalidate];
         ballView.alpha = 1.0f;
         oCountDown.alpha = 0.0f;
-        paddleViewRight.autoPlay = YES;
+        paddleViewRight.autoPlay = NO;
         [self startGameTimer];
     }
     else{
@@ -73,7 +73,7 @@
 -(void)resetBall:(NSTimer*)timer
 {
     [timer invalidate];
-    if (mPlayerTwoScore >= 1) {
+    if (mPlayerTwoScore >= 21) {
         UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Win"
                                                             message:@"Someone lost"
                                                            delegate:self
@@ -125,7 +125,7 @@
 
 -(void)startGameTimer
 {
-    [NSTimer scheduledTimerWithTimeInterval:0.005f target:self selector:@selector(moveBall:) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:0.002f target:self selector:@selector(moveBall:) userInfo:nil repeats:YES];
 }
 
 -(void)startCountdownTimer
